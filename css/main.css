@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner {
+    font-size: 7em;
+}
+
+.text_shadow {
+    text-shadow: 2px 2px 4px black;
+}
+
+.shadow-light {
+    text-shadow: 2px 2px 4px slategray;
+}
+
+.padding {
+    padding-top: 2em;
+}
+
+.btn-custom:hover {
+    color: black;
+    background-color: slategray;
+    border-color: slategray;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-item {
+    color: rgba(0,0,0,.55);
+}
+
+.copy {
+    padding-bottom: 2em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sevenfive {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#home {
+    background-image: url("../images/Moonshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#about {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: white;
+}
+
+#trade {
+    background-image: url("../images/daymoon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
