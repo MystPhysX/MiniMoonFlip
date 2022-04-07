@@ -27,7 +27,8 @@ img {
 }
 
 .padding {
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .btn-custom:hover {
@@ -44,7 +45,7 @@ img {
 }
 
 .dropdown-item {
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, .55);
 }
 
 .copy {
@@ -60,7 +61,7 @@ img {
 .sevenfive {
     margin-right: 25%;
     margin-left: 25%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #home {
@@ -88,4 +89,15 @@ img {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+}
+
+@media only screen and (orientation: portrait) {
+    .sevenfive {
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1em;
+    }
+    .maintext {
+        padding-bottom: 10em;
+    }
 }
