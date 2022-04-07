@@ -100,4 +100,8 @@ img {
     .maintext {
         padding-bottom: 10em;
     }
+    #trade {
+        height: auto;
+        min-height: 100%;
+    }
 }
